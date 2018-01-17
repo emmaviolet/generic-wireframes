@@ -43,42 +43,25 @@
 	<div class="container">
 		<div class="row">
 			<div class="u-full-width" style="margin-top: 15%">
-				<p style="color: darkgrey">Step 4 of 7</p>
-				<h4>When did this happen?</h4>
+				<p style="color: darkgrey">Step 5 of 7</p>
+				<h4>Should we send this report to your line manager?</h4>
 			</div>
 		</div>
 		<div class="row">
-			<label class="exactDate">
-				<input type="radio" id="exactDate" name="exactDateChoice" value="exactDate">
-				<span class="label-body">I know the exact date(s)</span>
-				<div class="row reveal-if-active">
-					<div class="u-full-width">
-						<label for="startDate">Start date</label>
-						<input type="date" id="startDate">
-						<label for="startDate">End date (optional)</label>
-						<input type="date" id="endDate">
-					</div>
-				</div>
+			<p>Your grievance report will be received and investigated by your line manager, {{ NAME }}, unless you'd prefer an alternative point of contact.</p>
+			<label class="alternativeContact">
+				<input type="radio" name="grievanceContact" checked="checked">
+				<span class="label-body">Yes, I'm happy for my line manager to investigate.</span>
 			</label>
-
-			<label class="inexactDate">
-				<input type="radio" id="inexactDate" name="exactDateChoice" value="inexactDate">
-				<span class="label-body">I'm not sure</span>
+			<label class="alternativeContact">
+				<input type="radio" name="grievanceContact">
+				<span class="label-body">No, I'd like an alternative contact.</span>
 				<div class="row reveal-if-active">
-					<div class="u-full-width">
-						<p style="color: darkgrey; font-weight:normal">If you're not sure, tell us roughly when you think this happened.</p>
-						<div style="display: inline-block; padding-right: 20px;">
-							<label for="startMonth">Month</label>
-							<input type="number" min="1" max="12" value="1" id="startMonth" style="width: 60px">
-						</div>
-						<div style="display: inline-block;">
-							<label for="startYear">Year</label>
-							<input type="number" min="1970" max="2018" value="2018" id="startYear" style="width: 80px">
-						</div>
-					</div>
+					<p style="color: darkgrey; font-weight:normal">Your report will be passed to your HR team, who will find an alternative contact to investigate your grievance.</p>
 				</div>
 			</label>
 		</div>
+		<br>
 
 		<div class="row">
         	<input class="button-primary" type="submit" value="Continue">

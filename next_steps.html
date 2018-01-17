@@ -19,7 +19,6 @@
 
   <!-- CSS
   	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  	<link rel="stylesheet" href="css/moj.scss">
   	<link rel="stylesheet" href="css/normalize.css">
   	<link rel="stylesheet" href="css/skeleton.css">
 
@@ -43,43 +42,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="u-full-width" style="margin-top: 15%">
-				<p style="color: darkgrey">Step 4 of 7</p>
-				<h4>When did this happen?</h4>
+				<p style="color: darkgrey">Step 6 of 7</p>
+				<h4>What do you think should happen next?</h4>
+				<p>We'd like to know what next steps you think we should take to address this issue. This section is optional, and you may leave it empty.</p>
+				<textarea class="u-full-width" placeholder="..." id="nextSteps"></textarea>
 			</div>
 		</div>
-		<div class="row">
-			<label class="exactDate">
-				<input type="radio" id="exactDate" name="exactDateChoice" value="exactDate">
-				<span class="label-body">I know the exact date(s)</span>
-				<div class="row reveal-if-active">
-					<div class="u-full-width">
-						<label for="startDate">Start date</label>
-						<input type="date" id="startDate">
-						<label for="startDate">End date (optional)</label>
-						<input type="date" id="endDate">
-					</div>
-				</div>
-			</label>
-
-			<label class="inexactDate">
-				<input type="radio" id="inexactDate" name="exactDateChoice" value="inexactDate">
-				<span class="label-body">I'm not sure</span>
-				<div class="row reveal-if-active">
-					<div class="u-full-width">
-						<p style="color: darkgrey; font-weight:normal">If you're not sure, tell us roughly when you think this happened.</p>
-						<div style="display: inline-block; padding-right: 20px;">
-							<label for="startMonth">Month</label>
-							<input type="number" min="1" max="12" value="1" id="startMonth" style="width: 60px">
-						</div>
-						<div style="display: inline-block;">
-							<label for="startYear">Year</label>
-							<input type="number" min="1970" max="2018" value="2018" id="startYear" style="width: 80px">
-						</div>
-					</div>
-				</div>
-			</label>
-		</div>
-
 		<div class="row">
         	<input class="button-primary" type="submit" value="Continue">
       </div>
