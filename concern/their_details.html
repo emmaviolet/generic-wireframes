@@ -19,12 +19,12 @@
 
   <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
 
   <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 <body>
@@ -33,40 +33,40 @@
       <h5 style="padding-left: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;">Safely Spoken</h5>
     </div>  
     <div style="width: 50%; float: right;"">
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="login.html">Log out</a>
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="notes.html">My notes</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../home.html">Log out</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../notes.html">My notes</a>
     </div>
   </div>
 
+<!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
       <div class="u-full-width" style="margin-top: 15%">
-        <h4>Make a note</h4>
-        <p>This space is for you to write down anything you remember about the event or events. These details won't be sent anywhere, so you can use this space to write down anything you might want to come back to.</p>
-        <p>For example, you may wish to include details of:</p>
-        <ul>
-          <li>What exactly happened: what was said or done</li>
-          <li>The name of the individual responsible, if applicable</li>
-          <li>The name of the individual targeted, if not yourself</li>
-          <li>How many offence(s) occurred</li>
-          <li>Where and when the offence(s) took place</li>
-          <li>Names of any witnesses to the offence(s)</li>
-        </ul>
-        <textarea class="u-full-width" placeholder="..." id="incidentDetails"></textarea>
+        <p style="color: darkgrey">Step 3 of 6</p>
+        <h4>Who was responsible for the behaviour?</h4>
+        <p>Because names can be spelled differently, we use email addresses to check if anyone else has identified the same person. Don't worry, we won't send them anything.</p>
+
+        <p>These details are optional if you don't wish to add your concern to our matching system, but we ask you to provide them even if you're happy to send your concern directly. It may help others who aren't ready to come forward on their own.</p>
+
+        <label for="nameInput">Their name</label>
+        <input class="u-full-width" type="email" placeholder="Zachary Edwards" id="nameInput">
+
+        <label for="emailInput">Their email</label>
+        <input class="u-full-width" type="email" placeholder="zachary.edwards@gmail.com" id="emailInput">
       </div>
     </div>
     <div class="row">
-      <a class="button button-primary" href="note_saved.html">Save and continue</a>
-      <a class="button" href="upload_docs.html">Add documents</a>
+      <a class="button button-primary" href="match_options.html">Continue</a>
     </div>
   </div>
 
   <footer style="margin-top: 5%; position: absolute; width: 100%;">
     <div style="width: 50%; float: left;">
-      <a class="u-pull-right" style="padding-right: 5px" href="#">About</a>
+      <a class="u-pull-right" style="padding-right: 5px" href="../about.html">About</a>
     </div>
     <div style="width: 50%; float: right;">
-      <a class="u-pull-left" style="padding-left: 5px" href="help.html">Help</a>
+      <a class="u-pull-left" style="padding-left: 5px" href="../help.html">Help</a>
     </div>
   </footer>
 </body>

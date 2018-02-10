@@ -19,12 +19,12 @@
 
   <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
 
   <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 <body>
@@ -33,39 +33,41 @@
       <h5 style="padding-left: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;">Safely Spoken</h5>
     </div>  
     <div style="width: 50%; float: right;"">
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="login.html">Log out</a>
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="notes.html">My notes</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../home.html">Log out</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../notes.html">My notes</a>
     </div>
   </div>
 
-<div class="container">
-  <div class="row">
-    <div class="u-full-width" style="margin-top: 10%">
-      <h4>We've saved your note</h4>
-      <p>We'll keep your note securely in case you want to come back to it again.</p>
-      <p>Have you thought about adding your note to our match database? That way, if someone identifies a problem with the same person, we'll send both your notes to an appropriate contact so they can be discussed and investigated together.</p>
+  <div class="container">
+    <div class="row">
+      <div class="u-full-width" style="margin-top: 15%">
+        <p style="color: darkgrey">Step 1 of 6</p>
+        <h4>Your details</h4>
+        <p>Your chosen contact will need to get in touch in order to understand the situation better.</p>
+      </div>
+    </div>
 
-      <p><b>Your note</b><br>
-      This is a note I wrote about something.
-      <a href="#">Edit</a></p>
-
-      <p><b>Your documents</b><br>
-      an-image.jpg
-      <a href="#">Remove</a></p>
+    <div class="row">
+      <div class="u-full-width">
+        <label for="nameInput">Your name</label>
+        <input class="u-full-width" type="email" placeholder="Melissa Howell" id="nameInput">
+      </div>
+      <div class="u-full-width">
+        <label for="emailInput">Your email</label>
+        <input class="u-full-width" type="email" placeholder="melissa.howell@gmail.com" id="emailInput">
+      </div>
+    </div>
+    <div class="row">
+      <a class="button button-primary" href="what_happened.html">Continue</a>
+    </div>
   </div>
 
-  <div class="row">
-    <a class="button button-primary" href="match_note.html">Add my note to the match database</a>
-    <a class="button" href="finished.html">No thanks, I'm done</a>
-  </div>
-</div>
-
-  <footer style="margin-top: 5%; position: absolute; width: 100%">
+  <footer style="margin-top: 5%; position: absolute; width: 100%;">
     <div style="width: 50%; float: left;">
-      <a class="u-pull-right" style="padding-right: 5px" href="#">About</a>
+      <a class="u-pull-right" style="padding-right: 5px" href="../about.html">About</a>
     </div>
     <div style="width: 50%; float: right;">
-      <a class="u-pull-left" style="padding-left: 5px" href="help.html">Help</a>
+      <a class="u-pull-left" style="padding-left: 5px" href="../help.html">Help</a>
     </div>
   </footer>
 </body>

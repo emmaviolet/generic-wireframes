@@ -19,12 +19,12 @@
 
   <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
 
   <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 <body>
@@ -33,38 +33,39 @@
       <h5 style="padding-left: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;">Safely Spoken</h5>
     </div>  
     <div style="width: 50%; float: right;"">
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="login.html">Log out</a>
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="notes.html">My notes</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../home.html">Log out</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../notes.html">My notes</a>
     </div>
   </div>
 
-<!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="u-full-width" style="margin-top: 15%">
-        <p style="color: darkgrey">Step 1 of 5</p>
-        <h4>Who was responsible for the behaviour?</h4>
-        <p>Because names can be spelled differently, we use email addresses to check if anyone else has identified the same person. Don't worry, we won't send them anything.</p>
-
-        <label for="nameInput">Their name</label>
-        <input class="u-full-width" type="email" placeholder="John Smith" id="nameInput">
-
-        <label for="emailInput">Their email</label>
-        <input class="u-full-width" type="email" placeholder="email@gmail.com" id="emailInput">
+      <div class="u-full-width" style="margin-top: 10%">
+        <p style="color: darkgrey">Step 2 of 6</p>
+        <h4>What happened?</h4>
+        <p>You may wish to include details of:</p>
+        <ul>
+          <li>The name of any individuals targeted</li>
+          <li>How many incidents occurred</li>
+          <li>Where the incident(s) took place</li>
+          <li>The nature of each incident (exactly what was said or done)</li>
+          <li>Names of any other witnesses to the incident(s)</li>
+          <li>Names of anyone else you believe may have been affected</li>
+        </ul>
+        <textarea class="u-full-width" placeholder="..." id="incidentDetails"></textarea>
       </div>
     </div>
     <div class="row">
-      <a class="button button-primary" href="your_details.html">Continue</a>
+      <a class="button button-primary" href="their_details.html">Continue</a>
     </div>
   </div>
 
   <footer style="margin-top: 5%; position: absolute; width: 100%;">
     <div style="width: 50%; float: left;">
-      <a class="u-pull-right" style="padding-right: 5px" href="#">About</a>
+      <a class="u-pull-right" style="padding-right: 5px" href="../about.html">About</a>
     </div>
     <div style="width: 50%; float: right;">
-      <a class="u-pull-left" style="padding-left: 5px" href="help.html">Help</a>
+      <a class="u-pull-left" style="padding-left: 5px" href="../help.html">Help</a>
     </div>
   </footer>
 </body>

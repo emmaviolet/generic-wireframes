@@ -19,12 +19,12 @@
 
   <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
 
   <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 <body>
@@ -33,28 +33,26 @@
       <h5 style="padding-left: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;">Safely Spoken</h5>
     </div>  
     <div style="width: 50%; float: right;"">
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="login.html">Log out</a>
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="notes.html">My notes</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../home.html">Log out</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../notes.html">My notes</a>
     </div>
   </div>
 
-<div class="container">
-  <div class="row">
-    <div class="u-full-width" style="margin-top: 10%">
-      <h4>Log saved</h4>
-      <p>We've now saved your details - thank you. If anyone else identifies the same individual, we'll email those details to your preferred point of contact, so that they can follow up with you. We'll also email you to let you know.</p>
-
-      <p>We won't hold your details forever. If nobody identifies the same individual, we'll get in touch with you in a year so that you can tell us whether you'd like us to keep them.</p>
-
-      <p>For your security, you'll be logged out in five minutes.</p>
+  <div class="container">
+    <div class="row">
+      <div class="u-full-width" style="margin-top: 15%">
+        <h4>Upload documents</h4>
+        <p>This space is for you to upload any documents that you find useful. These might include photos or videos of something you've seen or experienced, but could be anything.</p>
+        <input class="u-full-width" type="file" id="incidentUploads" multiple>
+      </div>
+    </div>
+    <div class="row">
+      <a class="button button-primary" href="note_saved.html">Upload and continue</a>
+      <a class="button" href="make_a_note.html">Upload and add a note</a>
+    </div>
   </div>
 
-  <div class="row">
-    <a class="button button-primary" href="#">Log out now</a>
-  </div>
-</div>
-
-  <footer style="margin-top: 5%; position: absolute; width: 100%">
+  <footer style="margin-top: 5%; position: absolute; width: 100%;">
     <div style="width: 50%; float: left;">
       <a class="u-pull-right" style="padding-right: 5px" href="#">About</a>
     </div>

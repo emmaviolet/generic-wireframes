@@ -19,12 +19,12 @@
 
   <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
 
   <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 <body>
@@ -33,21 +33,35 @@
       <h5 style="padding-left: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;">Safely Spoken</h5>
     </div>  
     <div style="width: 50%; float: right;"">
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="login.html">Log out</a>
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="notes.html">My notes</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../home.html">Log out</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../notes.html">My notes</a>
     </div>
   </div>
 
 <div class="container">
   <div class="row">
     <div class="u-full-width" style="margin-top: 10%">
-      <h4>Thank you</h4>
-      <p>Thanks for taking the time to record your thoughts. Remember, you can come back and review your notes at any time.</p>
-      <p>For your security, we'll log you out in five minutes.</p>
+      <h4>Add note to match database</h4>
+      <p>Adding your note to our matching database will really help anyone else who wants to come forward.</p>
+
+      <p>In order to enter your note into our database, we'll need a few details from you.</p>
+      <ul>
+        <li>Your name and email address</li>
+        <li>Details of the individual responsible for the behaviour, if relevant</li>
+        <li>A decision from you about how you'd like us to send the information</li>
+        <li>Details of an appropriate contact to send your concern to, if not your line manager</li>
+      </ul>
+
+      <p>One we have those details, we'll hold your note securely, unless somebody else comes forward to identify a concern with the same individual. If that happens, we'll send both of your reports on to your points of contact, so that they can be discussed or investigated together.</p>
   </div>
 
   <div class="row">
-    <a class="button button-primary" href="home.html">Log out now</a>
+    <div class="one-half column">
+        <a class="button button-primary u-full-width" href="concern/your_details.html">Start</a>
+    </div>
+    <div class="one-half column">
+      <a class="button u-full-width" href="concern/raise_concern_matching_info.html">How does matching work?</a>
+    </div>
   </div>
 </div>
 

@@ -19,12 +19,12 @@
 
   <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
 
   <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 <body>
@@ -33,32 +33,31 @@
       <h5 style="padding-left: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;">Safely Spoken</h5>
     </div>  
     <div style="width: 50%; float: right;"">
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="login.html">Log out</a>
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="notes.html">My notes</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../home.html">Log out</a>
+      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="../notes.html">My notes</a>
     </div>
   </div>
 
   <div class="container">
     <div class="row">
       <div class="u-full-width" style="margin-top: 15%">
-        <p style="color: darkgrey">Step 2 of 5</p>
-        <h4>How should we follow up with you?</h4>
-        <p>Your chosen contact will need to get in touch in order to understand the situation better.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="u-full-width">
-        <label for="nameInput">Your name</label>
-        <input class="u-full-width" type="email" placeholder="John Smith" id="nameInput">
-      </div>
-      <div class="u-full-width">
-        <label for="emailInput">Your email</label>
-        <input class="u-full-width" type="email" placeholder="email@gmail.com" id="emailInput">
+        <h4>Make a note</h4>
+        <p>This space is for you to write down anything you remember about the event or events. These details won't be sent anywhere, so you can use this space to write down anything you might want to come back to.</p>
+        <p>For example, you may wish to include details of:</p>
+        <ul>
+          <li>What exactly happened: what was said or done</li>
+          <li>The name of the individual responsible, if applicable</li>
+          <li>The name of the individual targeted, if not yourself</li>
+          <li>How many offence(s) occurred</li>
+          <li>Where and when the offence(s) took place</li>
+          <li>Names of any witnesses to the offence(s)</li>
+        </ul>
+        <textarea class="u-full-width" placeholder="..." id="incidentDetails"></textarea>
       </div>
     </div>
     <div class="row">
-      <a class="button button-primary" href="match_options.html">Continue</a>
+      <a class="button button-primary" href="note_saved.html">Save and continue</a>
+      <a class="button" href="upload_docs.html">Add documents</a>
     </div>
   </div>
 

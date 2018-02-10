@@ -3,51 +3,160 @@
 <head>
 
   <!-- Basic Page Needs
-  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  	<meta charset="utf-8">
-  	<title>Safely Spoken</title>
-  	<meta name="description" content="">
-  	<meta name="author" content="">
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Safely Spoken</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
   <!-- Mobile Specific Metas
-  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- FONT
-  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
-  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  	<link rel="stylesheet" href="css/moj.scss">
-  	<link rel="stylesheet" href="css/normalize.css">
-  	<link rel="stylesheet" href="css/skeleton.css">
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/moj.scss">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
 
   <!-- Favicon
-  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  	<link rel="icon" type="image/png" href="images/favicon.png">
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 <body>
-	<div class="row" style="background-color: #DCDCDC;">
+  <div class="row" style="background-color: #DCDCDC;">
     <div style="width: 50%; float: left;">
       <h5 style="padding-left: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;">Safely Spoken</h5>
     </div>  
-    <div style="width: 50%; float: right;"">
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="login.html">Log out</a>
-      <a class="u-pull-right" style="padding-right: 20px; padding-top: 15px; line-height: 40px; vertical-align: middle;" href="notes.html">My notes</a>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="u-full-width" style="margin-top: 15%">
+        <h4>Frequently Asked Questions</h4>
+        <p>Some things are hard to talk about. No matter how great the company or the culture, it's often a struggle to come forward with concerns.</p>
+        <p>We exist to make that conversation easier. Our service is completely confidential: we won't store any identifying information, and nobody will know that you've accessed our service until there's something you're ready to share.</p>
+
+        <label for="toggle-4" style="display: inline;">
+          <a style="font-weight:normal; text-decoration: underline;">
+            What constitutes bullying and harassment?
+          </a>
+        </label>
+        <input type="checkbox" style="opacity: 0" id="toggle-4">
+        <div class="row reveal-if-active">
+          <p>Harassment is unwanted behaviour which affects a person's dignity. It can relate to age, gender, sexual orientation, race, disability, religion, nationality, gender identity or any other personal characteristic of the individual and may be continuous or a one-off incident. Basically, the actions or comments are seen by the person receiving them as demeaning and unacceptable.</p>
+
+          <p>Bullying may include offensive, intimidating, malicious or insulting behaviour or an abuse of misuse of power which aims to undermine, humiliate or injure someone.  Bullying or harassment may be by an individual against an individual or involve groups of people.</p>
+
+          <p>Some individuals may perceive certain actions as bullying or harassment where other individuals do not. If you feel that anything you have seen or experienced may be inappropriate, you are encouraged to talk about it with your line manager.</p>
+        </div>
+
+        <label for="toggle-7" style="display: inline;">
+          <a style="font-weight:normal; text-decoration: underline;">
+            What happens to my data?
+          </a>
+        </label>
+        <input type="checkbox" style="opacity: 0" id="toggle-7">
+        <div class="row reveal-if-active height-1000">
+          <p>Most data you send us is never stored. We send it straight to your organisation so that they can follow up directly with you. We do keep a record that we've sent something: that's so that we can help keep your organisation on track with any next steps they need to take.</p>
+
+          <p>There are a few exceptions to this. First, if you add an issue to our matching database, we'll store the details of that issue until it is matched. If a matching issue is received, we'll send both of those issues to your organisation together. They'll both be deleted from our database when that happens. If a matching issue isn't received, we'll get in touch with you after a year to confirm whether you still want us to hold your data.</p>
+
+          <p>Second, we do hold onto your email address if you ask to be connected to an anti-bullying & harassment advisor. This is so that we don't have to release your email address to the advisor - you can email them back and forth without them ever having to know who you are.</p>
+
+          <p>Third, we send some usage data to google analytics. None of this data is identifiable: we can see whether someone visited a page, and how long they spent on it, but we won't know whether that person is you, and we won't be able to see anything you've written. We store this data so that we can design a better product. It helps us identify which features are helpful, which features are confusing, and which features we should develop next.</p>
+
+          <p>If you have suggestions or concerns, we'd love to hear from you - email emma@safelyspoken.com.</p>
+          <p><a class="button" href="mailto:emma@safelyspoken.com?Subject=Feedback" target="_top">Email us</a></p>
+        </div>
+
+        <label for="toggle-8" style="display: inline;">
+          <a style="font-weight:normal; text-decoration: underline;">
+            How can I send feedback?
+          </a>
+        </label>
+        <input type="checkbox" style="opacity: 0" id="toggle-8">
+        <div class="row reveal-if-active height-1000">
+          <p>We'd love to hear your suggestions. Please email emma@safelyspoken.com.</p>
+          <p><a class="button" href="mailto:emma@safelyspoken.com?Subject=Feedback" target="_top">Email us</a></p>
+        </div><br>
+
+        <h5>Our matching system</h5>
+        <label for="toggle-9" style="display: inline;">
+          <a style="font-weight:normal; text-decoration: underline;">
+            What is 'matching'?
+          </a>
+        </label>
+        <input type="checkbox" style="opacity: 0" id="toggle-9">
+        <div class="row reveal-if-active height-1000">
+          <p>Our matching system allows you to raise a concern about an individual only if someone else in your organisation also raises a concern with the same person. That means that you only come forward if the issue is not a one-off.</p>
+
+          <p>You will be given the option to enter into our matching system if you decide to raise a concern.</p>
+
+          <p><a class="button" href="concern/raise_a_concern.html" target="_top">Raise a concern</a></p>
+        </div>
+
+        <label for="toggle-10" style="display: inline;">
+          <a style="font-weight:normal; text-decoration: underline;">
+            What happens if my concern is matched?
+          </a>
+        </label>
+        <input type="checkbox" style="opacity: 0" id="toggle-10">
+        <div class="row reveal-if-active height-1000">
+          <p>What happens if Emma and John both raise a concern about Lucy?</p>
+
+          <p>Once Emma and John have both added their concerns to our database, their concerns will 'match' - because they both identify Lucy as the subject of their concern. When this happens, both Emma's and John's details will be sent immediately to the people they said they wanted to be contacted.</p>
+
+          <p>Emma named her line manager, David, as the person she'd like her concern to be sent to, so the details that Emma gave us will be sent immediately to David. We'll also let David know that a separate concern has been raised about Lucy, and give him the details of John's contact so that he can follow up.</p>
+
+          <p>John asked for his concern to be sent to George, so we'll send the details that John gave us directly to George. We'll also let George know that a separate concern has been raised about Lucy, and give George David's contact details so that he can follow up. We won't tell George who raised the other concern.</p>
+
+          <p>We'll also email both Emma and John to let them know that their concern was matched, and that they should expect to hear from David and George.</p>
+
+          <p><a class="button" href="concern/raise_a_concern.html" target="_top">Raise a concern</a></p>
+        </div>
+
+        <label for="toggle-11" style="display: inline;">
+          <a style="font-weight:normal; text-decoration: underline;">
+            What happens if my concern is not matched?
+          </a>
+        </label>
+        <input type="checkbox" style="opacity: 0" id="toggle-11">
+        <div class="row reveal-if-active height-1000">
+          <p>We don't want to keep unmatched concerns on our database forever. You might change your mind about coming forward; you might leave the company; or you might want to opt out of the matching process because you've decided to come forward on your own.</p>
+
+          <p>So, if your concern is on our database for a year, and remains unmatched, we'll send you an email to check whether you want us to keep it there. If you'd rather opt out, we'll delete it from our database, and it'll be like it never existed at all.</p>
+
+          <p><a class="button" href="concern/raise_a_concern.html" target="_top">Raise a concern</a></p>
+        </div>
+
+        <label for="toggle-12" style="display: inline;">
+          <a style="font-weight:normal; text-decoration: underline;">
+            How can I add a concern into the matching system?
+          </a>
+        </label>
+        <input type="checkbox" style="opacity: 0" id="toggle-12">
+        <div class="row reveal-if-active height-1000">
+          <p>You can add a concern into the matching system by clicking on 'raise a concern' from our home page. That will take you through the process to raise a concern, and ask you how you would like your concern to be raised. When you get there, just click the option to 'wait and send if matched' and we'll take it from there.</p>
+
+          <p><a class="button" href="concern/raise_a_concern.html" target="_top">Raise a concern</a></p>
+        </div>
+      </div>
     </div>
   </div>
 
-TBC
-
-	<footer style="margin-top: 5%; position: absolute; width: 100%">
-		<div style="width: 50%; float: left;">
-			<a class="u-pull-right" style="padding-right: 5px" href="#">About</a>
-		</div>
-		<div style="width: 50%; float: right;">
-			<a class="u-pull-left" style="padding-left: 5px" href="help.html">Help</a>
-		</div>
-	</footer>
+  <footer style="margin-top: 5%; position: absolute; width: 100%">
+    <div style="width: 50%; float: left;">
+      <a class="u-pull-right" style="padding-right: 5px" href="about.html">About</a>
+    </div>
+    <div style="width: 50%; float: right;">
+      <a class="u-pull-left" style="padding-left: 5px" href="help.html">Help</a>
+    </div>
+  </footer>
 </body>
 </html>
